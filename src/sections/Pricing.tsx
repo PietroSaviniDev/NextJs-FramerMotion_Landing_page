@@ -60,7 +60,7 @@ export const Pricing = () => {
       <div className="container">
         <div className="section-heading">
           <h2 className="title-secondary title-gradient">Piano prezzi</h2>
-          <p className="text-primary mt-2">Gratis per sempre. Esegui l'upgrade per task illimitate, una sicurezza migliore e contenuti esclusivi.</p>
+          <p className="text-primary mt-2">Gratis per sempre. Esegui l&apos; upgrade per task illimitate, una sicurezza migliore e contenuti esclusivi.</p>
         </div>
       </div>
 
