@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 import clsx from "clsx";
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       scrollBehavior : 'smooth'
     }}>
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
+        <SpeedInsights/>
         {children}
       </body>
     </html>
